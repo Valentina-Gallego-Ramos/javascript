@@ -1,7 +1,6 @@
-const nombres = ["Paula","Valentina","Rosmira","Felipe"];
-function imprimirNombres() {
-    for (let i = 0; i < nombres.length; i++) {
-        document.write(nombres[i] + "<br>");  
-    }
-}
-imprimirNombres();
+const array = [1, 2, 3, 4, 5];
+
+array.forEach((element) => {
+  // Código a ejecutar para cada elemento
+  console.log(element);
+});
