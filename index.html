@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Clase 1</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  
-</head>
-
-<body>
-  <h1>Hola</h1>
-  <script>
-    let nombre= "Valentina";
-    const apellido= " Gallego";
-    var profesion= " Estudiante";
-    ciudad= "medellin";
-
-    console.log(nombre);
-    console.log(apellido);
-    console.log(profesion);
-    console.log(ciudad);
-
-  </script>
-  <script src="script.js"></script>
-  <body/>
+  <head>
+    <title>Ejemplo de forEach</title>
+  </head>
+  <body>
+    <script>
+      const letters = ["a", "b", "c", "d"];
+      const f = function () {
+        console.log("un elemento");
+      };
+      letters.forEach(f);
+      letters.forEach(function () {
+        console.log("un elemento");
+      });
+      letters.forEach(() => console.log("un elemento"));
+    </script>
+  </body>
+</html>
 
 
 
