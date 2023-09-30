@@ -1,6 +1,11 @@
-const array = [1, 2, 3, 4, 5];
+const letters=["a", "b", "c", "d" ]
+const f= function (){
+ console.log("un elemento");
+};
+letters.forEach(f);
+letters.forEach(function() {
+  console.log("un elemento");
+]);
+letters.forEach(() ==> console.log("un elemento")
 
-array.forEach((element) => {
-  // Código a ejecutar para cada elemento
-  console.log(element);
-});
+  
