@@ -1,11 +1,4 @@
-const letters=["a", "b", "c", "d" ]
-const f= function (){
- console.log("un elemento");
-};
-letters.forEach(f);
-letters.forEach(function() {
-  console.log("un elemento");
-]);
-letters.forEach(() ==> console.log("un elemento")
+const fruits = ["Bananas", "orange" , "apple" , " mango "]
+let text () => fruits.toString();
 
   
